@@ -1,13 +1,112 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>web page</title>
+    <meta charset="UTF-8">
+    <title>table creation</title>
 </head>
+<style>
+    label {
+        color: orangered;
+        font-weight: 700;
+    }
+
+    marquee {
+        font-size: 40px;
+        font-weight: 700;
+        color: orangered;
+        font-style: unset;
+    }
+
+    button {
+        border-radius: 20px;
+        padding: 0.5em 1em;
+        border: none;
+        color: black;
+        background-color: orange;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    input {
+        border-radius: 10px;
+        border-color: orangered;
+    }
+
+    div {
+        background-color: rgb(158, 238, 158);
+        padding: 20px;
+        width: 300px;
+        margin: auto;
+        margin-top: 80px;
+        border: solid 0.1em orangered;
+    }
+
+    .in {
+        color: black;
+        border-radius: 20px;
+        padding: 0.5em 1em;
+        border: none;
+        color: black;
+        background-color: red;
+        font-weight: 700;
+        cursor: pointer;
+    }
+</style>
 
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quia libero recusandae adipisci explicabo numquam
-        molestias perferendis aliquid quas veritatis. Quia excepturi impedit, nemo modi pariatur deleniti odit incidunt
-        consequuntur.</p>
+    <div>
+        <marquee>User Details</marquee>
+        <form>
+            <label>User name</label>
+            <input type="text">
+            <br><br>
+
+            <label>Email</label>
+            <input type="email">
+            <br><br>
+
+            <label>Contact Number</label>
+            <input type="tel">
+            <br><br>
+
+            <label>YOP</label>
+            <input type="text">
+            <br><br>
+
+            <label>Qualification</label>
+            <input type="text">
+            <br><br>
+
+
+            <label>Skill</label>
+            <br><br>
+            <input type="radio" value="java">java
+            <input type="radio" value="python">python
+            <input type="radio" value="javascript">javascript
+            <br><br>
+
+            <label>Hobbies</label>
+            <br><br>
+            <input type="checkbox" value="video games">video games
+            <input type="checkbox" value="drawing">drawing
+            <input type="checkbox" value="watching movie">watching movie
+            <br><br>
+
+            <label>Available Time</label>
+            <input type="datetime-local">
+            <br><br>
+
+            <input class="in" type="reset">
+            <button>Verify</button>
+
+
+
+
+
+
+        </form>
+    </div>
 </body>
 
 </html>
