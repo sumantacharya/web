@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    background-color: rgb(253, 252, 249);
+}
+
+nav ul {
+    display: flex;
+    gap: 1em;
+    padding-top: 1.2em;
+    list-style: none;
+    padding-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(230, 232, 189);
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    color: black;
+
+
+}
+
+li a:hover {
+    background-color: #d9ba6a;
+    color: #fff;
+}
+
+#main {
+    background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1731768466934-3d98b5fff924?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+}
+
+form {
+    position: relative;
+    top: 80px;
+    width: 30%;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+    background: radial-gradient(circle at 50% 50%, rgba(245, 243, 243, 0.5), rgba(232, 229, 229, 0.5));
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+form h1 {
+    padding-top: 30px;
+}
+
+form input {
+    margin-top: 1em;
+    padding: 0.5em 2em;
+    border: none;
+    border-bottom: 0.2em solid rgb(62, 62, 60);
+    background: transparent;
+}
+
+form button {
+    padding: 0.7em 1.5em;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: #454441;
+    color: #fff;
+}
+
+.header {
+    padding-top: 2em;
+    margin-bottom: -2em;
+}
+
+table {
+    top: 80px;
+    position: relative;
+    margin: auto;
+    padding-top: 2em;
+    width: 80%;
+    height: 50vh;
+    text-align: center;
+    border-collapse: collapse;
+    background: radial-gradient(circle at 50% 50%, rgba(245, 243, 243, 0.5), rgba(232, 229, 229, 0.5));
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+th,
+td {
+    border: 1px solid #f6f1f1;
+    padding: 8px;
+}
+
+th {
+    background-color: #3a3939;
+    color: #fff;
+}
+
+
+
+
+footer {
+    background-color: white;
+    color: #111;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+}
+
+footer a {
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+}
