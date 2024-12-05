@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./signup.css">
+
+<body class="secondbody">
+
+    <div>
+        <img src="https://play-lh.googleusercontent.com/M9OV4YbXs454NoXzN2gp2WYeMp4j79gGtUZ1-UdAisi_258QFa8O-4RzLrhER5wWuvnN"
+            alt="">
+        <form id="signup-form" class=" form" onsubmit="handleSignUp(event)">
+            <h2>Sign Up</h2>
+            <input id="signup-username" type="text" placeholder="Username" required><br>
+            <input id="signup-email" type="email" placeholder="Email" required><br>
+            <input id="signup-password" type="password" placeholder="Password" required><br>
+            <input id="signup-confirm-password" type="password" placeholder="Confirm Password" required><br><br>
+            <button type="submit">Register</button><br><br>
+            <p>Already have an account? <span onclick="showSignIn()">Sign In</span></p>
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+
+</html>
