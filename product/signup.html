@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+
+</head>
+<link rel="stylesheet" href="./signup.css">
+
+<body>
+    <section>
+        <div class="container">
+            <img src="/cssProperties/image/Snapimg.png" alt="" width="100" class="image">
+            <img src="https://cdn.vox-cdn.com/thumbor/NtUFRkFWrRWE2KO8CE3LI0hUFmk=/0x0:1920x1280/1400x1400/filters:focal(960x640:961x641)/cdn.vox-cdn.com/uploads/chorus_asset/file/22061450/snapchatspotlight.jpg"
+                alt="" width="300" class="image1">
+
+            <h1 class="firstp">Welcome to Snapchat</h1>
+            <h1 class="secondp">Please Login</h1>
+
+            <form id="signin-form" class="form active" onsubmit="sumanthHandle(event)">
+                <h1>Log In </h1>
+
+                <input id="signin-email" type="email" placeholder="Email" required><br>
+                <input id="signin-password" type="password" placeholder="Password" required><br><br>
+                <button type="submit">Login</button><br><br>
+                <p>Don't have an account? <span onclick="showSignUp()">Sign Up</span></p>
+            </form>
+
+
+        </div>
+    </section>
+    <script src="signup.js"></script>
+</body>
+
+</html>
